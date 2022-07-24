@@ -1,0 +1,40 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://khuchieunghi.github.io/JSA03-khuchieunghi/public/background.png);
+    height: 1000px;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.prim-button{
+    background-color: rgb(255, 197,0);
+    border: transparent;
+    margin-top: 24px;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    color: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-img .img{
+    
+}
