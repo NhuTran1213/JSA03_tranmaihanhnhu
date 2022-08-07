@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+}
+
+.row {
+    padding: 0 2%;
+    max-width: 1140px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.section-first-container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://www.omnifood.net/resources/CSS/img/hero-min.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header img{ 
+    width: 100px;
+    height: 100px;
+}
+
+.header-menu a{
+    padding: 8px ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    cursor: pointer;
+}
+
+.content-container{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 44px;
+}
+
+.container-buttons .button.primary {
+    color: white;
+    background: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 99px;
+    padding: 10px 30px;
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container-buttons .button.secondary {
+    color: #e67e22;
+    background: transparent;
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 99px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 32px;
+    margin: 0px 0px 30px;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    content: " ";
+}
+
+.section2-features .longcopy {
+    margin-bottom: 30px;
+}
+.longcopy{
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+
+.col-box {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    width: 21%;
+    padding: 1%;
+}
+.features-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.features-row{
+    padding: 0 2%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section3 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.section3 img:hover {
+    opacity: 1;
+}
+
+.section4-cities{
+    padding: 60px 0;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+.col-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-style: none;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+ion-icon{
+    color: #e67e22;
+}
+
+.city-feature{
+    font-size: 90%;
+    margin-bottom: 5px;
+}
+a{
+    color: #e67e22;
+    padding-bottom: 1px;
+    background: transparent;
+}
+
+.section5{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(http://www.omnifood.net/resources/CSS/img/back-customers-min.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 60px 0;
+    height: 480px;
+}
+
+.col-span{
+    width: 32%;
+    display: block;
+    float: left;
+    margin: 1% 0 1% 0;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+cite img{
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 40px;
+}
+.quote-row{
+    padding: 0 2%;
+    max-width: 1140px;
+    margin: 0 auto;
+    zoom: 1;
+}
